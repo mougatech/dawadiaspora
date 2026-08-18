@@ -1,0 +1,29 @@
+{
+  "nav.home": "Ahabanza",
+  "nav.courses": "Amasomo",
+  "nav.faq": "Ibibazo n'Ibisubizo",
+  "nav.teachers": "Abarimu Bacu",
+  "nav.about": "Abo turi bo",
+  "nav.donate": "Tanga impano",
+  "nav.contact": "Twandikire",
+  "nav.login": "Injira",
+  "nav.signup": "Iyandikishe",
+  "nav.logout": "Sohoka",
+
+  "btn.buy_now": "Gura Ubu",
+  "btn.subscribe": "Iyandikishe",
+  "btn.start_learning": "Tangira Kwiga",
+  "btn.mark_complete": "Emeza ko Byarangiye",
+  "btn.donate": "Tanga Impano",
+  "btn.custom_amount": "Andi Mafaranga",
+
+  "faq.category.audio": "Amajwi",
+  "faq.category.video": "Videwo",
+  "faq.category.pdf": "PDF",
+
+  "course.level.beginner": "Utangira",
+  "course.level.intermediate": "Rugero rwo Hagati",
+  "course.level.advanced": "Uwuzi Byinshi",
+
+  "footer.rights": "Uburenganzira bwose burarinzwe."
+}

@@ -1,0 +1,29 @@
+{
+  "nav.home": "Accueil",
+  "nav.courses": "Cours",
+  "nav.faq": "Questions & Réponses",
+  "nav.teachers": "Nos Enseignants",
+  "nav.about": "À propos",
+  "nav.donate": "Faire un don",
+  "nav.contact": "Contact",
+  "nav.login": "Connexion",
+  "nav.signup": "S'inscrire",
+  "nav.logout": "Déconnexion",
+
+  "btn.buy_now": "Acheter",
+  "btn.subscribe": "S'abonner",
+  "btn.start_learning": "Commencer à apprendre",
+  "btn.mark_complete": "Marquer comme terminé",
+  "btn.donate": "Faire un don",
+  "btn.custom_amount": "Montant libre",
+
+  "faq.category.audio": "Audio",
+  "faq.category.video": "Vidéo",
+  "faq.category.pdf": "PDF",
+
+  "course.level.beginner": "Débutant",
+  "course.level.intermediate": "Intermédiaire",
+  "course.level.advanced": "Avancé",
+
+  "footer.rights": "Tous droits réservés."
+}

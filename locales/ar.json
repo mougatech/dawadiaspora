@@ -1,0 +1,29 @@
+{
+  "nav.home": "الرئيسية",
+  "nav.courses": "الدورات",
+  "nav.faq": "الأسئلة والأجوبة",
+  "nav.teachers": "معلمونا",
+  "nav.about": "من نحن",
+  "nav.donate": "تبرع",
+  "nav.contact": "اتصل بنا",
+  "nav.login": "تسجيل الدخول",
+  "nav.signup": "إنشاء حساب",
+  "nav.logout": "تسجيل الخروج",
+
+  "btn.buy_now": "اشترِ الآن",
+  "btn.subscribe": "اشترك",
+  "btn.start_learning": "ابدأ التعلم",
+  "btn.mark_complete": "تحديد كمكتمل",
+  "btn.donate": "تبرع",
+  "btn.custom_amount": "مبلغ آخر",
+
+  "faq.category.audio": "صوتي",
+  "faq.category.video": "فيديو",
+  "faq.category.pdf": "ملف PDF",
+
+  "course.level.beginner": "مبتدئ",
+  "course.level.intermediate": "متوسط",
+  "course.level.advanced": "متقدم",
+
+  "footer.rights": "جميع الحقوق محفوظة."
+}

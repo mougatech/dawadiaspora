@@ -1,0 +1,29 @@
+{
+  "nav.home": "Home",
+  "nav.courses": "Courses",
+  "nav.faq": "Questions & Answers",
+  "nav.teachers": "Our Teachers",
+  "nav.about": "About",
+  "nav.donate": "Donate",
+  "nav.contact": "Contact",
+  "nav.login": "Log In",
+  "nav.signup": "Sign Up",
+  "nav.logout": "Log Out",
+
+  "btn.buy_now": "Buy Now",
+  "btn.subscribe": "Subscribe",
+  "btn.start_learning": "Start Learning",
+  "btn.mark_complete": "Mark as Complete",
+  "btn.donate": "Donate",
+  "btn.custom_amount": "Custom Amount",
+
+  "faq.category.audio": "Audio",
+  "faq.category.video": "Video",
+  "faq.category.pdf": "PDF",
+
+  "course.level.beginner": "Beginner",
+  "course.level.intermediate": "Intermediate",
+  "course.level.advanced": "Advanced",
+
+  "footer.rights": "All rights reserved."
+}

@@ -1,0 +1,29 @@
+{
+  "nav.home": "Nyumbani",
+  "nav.courses": "Kozi",
+  "nav.faq": "Maswali na Majibu",
+  "nav.teachers": "Walimu Wetu",
+  "nav.about": "Kuhusu Sisi",
+  "nav.donate": "Changia",
+  "nav.contact": "Wasiliana Nasi",
+  "nav.login": "Ingia",
+  "nav.signup": "Jisajili",
+  "nav.logout": "Toka",
+
+  "btn.buy_now": "Nunua Sasa",
+  "btn.subscribe": "Jiandikishe",
+  "btn.start_learning": "Anza Kujifunza",
+  "btn.mark_complete": "Weka Alama Imekamilika",
+  "btn.donate": "Changia",
+  "btn.custom_amount": "Kiasi Kingine",
+
+  "faq.category.audio": "Sauti",
+  "faq.category.video": "Video",
+  "faq.category.pdf": "PDF",
+
+  "course.level.beginner": "Mwanzo",
+  "course.level.intermediate": "Kati",
+  "course.level.advanced": "Juu",
+
+  "footer.rights": "Haki zote zimehifadhiwa."
+}
