@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DawaDiaspora — Learn your language, reclaim your roots</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=Noto+Naskh+Arabic:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">dawa<span>diaspora</span></a>
+
+    <nav class="main-nav" data-i18n-nav>
+      <a href="#courses" data-i18n="nav.courses">Courses</a>
+      <a href="#faq" data-i18n="nav.faq">Q&amp;A</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#donate" data-i18n="nav.donate">Donate</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switcher">
+        <button class="lang-current" id="langCurrent" aria-haspopup="listbox" aria-expanded="false">
+          <span id="langCurrentLabel">EN</span>
+          <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+        <ul class="lang-options" id="langOptions" role="listbox">
+          <li role="option" data-lang="en">English</li>
+          <li role="option" data-lang="ar">العربية</li>
+          <li role="option" data-lang="fr">Français</li>
+          <li role="option" data-lang="rw">Kinyarwanda</li>
+          <li role="option" data-lang="sw">Kiswahili</li>
+        </ul>
+      </div>
+      <a href="#login" class="btn btn-ghost" data-i18n="nav.login">Log In</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow" data-i18n="hero.eyebrow">A platform for the diaspora</p>
+
+      <h1 class="hero-morph" id="morphWord" aria-live="polite">Welcome</h1>
+
+      <p class="hero-sub" data-i18n="hero.subtitle">
+        Learn the languages of home — through lessons built in PDF, audio, and video, in the language you already speak.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#courses" class="btn btn-primary" data-i18n="btn.start_learning">Start Learning</a>
+        <a href="#how" class="btn btn-outline" data-i18n="btn.how_it_works">How it works</a>
+      </div>
+
+      <div class="hero-langs">
+        <span data-i18n="hero.available_in">Available in</span>
+        <strong>English · العربية · Français · Kinyarwanda · Kiswahili</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section class="courses" id="courses">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="courses.eyebrow">Lessons</p>
+        <h2 data-i18n="courses.title">Choose your language</h2>
+      </div>
+
+      <div class="course-grid" id="courseGrid">
+        <!-- Cartes générées en dur pour l'instant — seront remplacées par l'API /api/courses -->
+        <article class="course-card">
+          <div class="course-media" style="background:#12382B;"></div>
+          <div class="course-body">
+            <span class="course-level" data-i18n="course.level.beginner">Beginner</span>
+            <h3>Arabic — Foundations</h3>
+            <p>Script, sounds, and everyday phrases, taught step by step.</p>
+            <div class="course-meta">
+              <span class="course-formats" title="PDF, Audio, Video">📄 🎧 🎬</span>
+              <span class="course-price">$29</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-media" style="background:#1B2A4A;"></div>
+          <div class="course-body">
+            <span class="course-level" data-i18n="course.level.beginner">Beginner</span>
+            <h3>Kinyarwanda — Roots</h3>
+            <p>Reconnect with the language of home, one lesson at a time.</p>
+            <div class="course-meta">
+              <span class="course-formats" title="PDF, Audio, Video">📄 🎧 🎬</span>
+              <span class="course-price">$29</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="course-media" style="background:#C9A24B;"></div>
+          <div class="course-body">
+            <span class="course-level" data-i18n="course.level.intermediate">Intermediate</span>
+            <h3>Swahili — In Conversation</h3>
+            <p>Move from words to real conversation, with native audio.</p>
+            <div class="course-meta">
+              <span class="course-formats" title="PDF, Audio, Video">📄 🎧 🎬</span>
+              <span class="course-price">$34</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="section-inner how-grid">
+      <div class="how-copy">
+        <p class="eyebrow" data-i18n="how.eyebrow">The method</p>
+        <h2 data-i18n="how.title">Three ways in, one goal</h2>
+        <p data-i18n="how.subtitle">Every lesson comes in the format that fits how you learn — read, listen, or watch. Move at your pace, unlock the next step when you're ready.</p>
+      </div>
+
+      <div class="how-items">
+        <div class="how-item">
+          <span class="how-icon">📄</span>
+          <h3 data-i18n="how.pdf.title">Read</h3>
+          <p data-i18n="how.pdf.desc">Structured lesson guides you can print, annotate, and keep.</p>
+        </div>
+        <div class="how-item">
+          <span class="how-icon">🎧</span>
+          <h3 data-i18n="how.audio.title">Listen</h3>
+          <p data-i18n="how.audio.desc">Native pronunciation, repeated until it sticks.</p>
+        </div>
+        <div class="how-item">
+          <span class="how-icon">🎬</span>
+          <h3 data-i18n="how.video.title">Watch</h3>
+          <p data-i18n="how.video.desc">Real teachers, real context, on screen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DONATE BANNER -->
+  <section class="donate-banner" id="donate">
+    <div class="section-inner donate-inner">
+      <div>
+        <p class="eyebrow eyebrow-light" data-i18n="donate.eyebrow">Keep it going</p>
+        <h2 data-i18n="donate.title">Help a language stay spoken</h2>
+        <p data-i18n="donate.subtitle">Your gift funds new lessons and keeps courses accessible to families across the diaspora.</p>
+      </div>
+      <div class="donate-actions">
+        <div class="donate-amounts" id="donateAmounts">
+          <button class="amount-btn" data-amount="5">$5</button>
+          <button class="amount-btn" data-amount="10">$10</button>
+          <button class="amount-btn" data-amount="25">$25</button>
+          <button class="amount-btn" data-amount="50">$50</button>
+          <button class="amount-btn amount-custom" id="customAmountBtn" data-i18n="btn.custom_amount">Custom</button>
+        </div>
+        <input type="number" id="customAmountInput" class="custom-input hidden" placeholder="Enter amount" min="1" />
+        <button class="btn btn-gold" id="donateSubmit" data-i18n="btn.donate">Donate</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ TEASER -->
+  <section class="faq-teaser" id="faq">
+    <div class="section-inner">
+      <p class="eyebrow" data-i18n="faq.eyebrow">Need help</p>
+      <h2 data-i18n="faq.title">Questions & Answers</h2>
+      <div class="faq-cats">
+        <a href="#" class="faq-cat"><span>🎧</span><p data-i18n="faq.category.audio">Audio</p></a>
+        <a href="#" class="faq-cat"><span>🎬</span><p data-i18n="faq.category.video">Video</p></a>
+        <a href="#" class="faq-cat"><span>📄</span><p data-i18n="faq.category.pdf">PDF</p></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <a href="/" class="logo logo-footer">dawa<span>diaspora</span></a>
+    <p data-i18n="footer.rights">All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/i18n-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
